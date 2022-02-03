@@ -1,7 +1,15 @@
+#!/usr/bin/python3
+"""
+I built this while going through the portswigger sql injection academy
+and the script is currently a work in progress.
 
+It's currenly designed to be used in jupyter notebook-like environment, 
+ie. vscode or pycharm
+"""
 #%%
 import string
 import requests
+#from urllib import requests
 
 url = "https://ac8c1fce1e78d122c0ef46bb00e5009b.web-security-academy.net/"
 tracking_id = "N6ZAsoGLVQeST0GE"
